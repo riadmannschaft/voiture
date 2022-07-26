@@ -1,0 +1,299 @@
+      *{
+            padding: 0%;
+            margin: 0%;
+        }
+        header{
+            height: 160px;
+            width: 100%;
+            background-image: linear-gradient(to right, blue, rgb(22, 214, 240));
+        }
+        header img{
+            float: right;
+            height: 100px;
+            width: 100px;
+            margin:10px;
+            cursor: pointer;
+            
+        
+        }
+        
+        header span{
+            float: right;
+            border: 1px dotted wheat;
+            text-align: center;
+            width: 9.85%;
+            display: inline;
+            height: 100%;
+        }
+        #seat{
+            height: 80px;
+            margin-bottom: 30px;
+        }
+        span h2{
+            color: white;
+            font-size: 30px;
+        }
+        header span:hover{
+            background-color: rgb(154, 236, 236);
+        }
+        aside{
+            height: 800px;
+            width: 20%;
+            background-image: linear-gradient(to right, rgb(194, 80, 169), rgb(34, 206, 236));
+            margin:0%;
+            border: 1px solid wheat;
+            float: left;
+            display: inline-block;
+        }
+        body{
+            width: 100%;
+        }
+        aside h3{
+            padding: 5px;
+            margin: 2px;
+           color: white;
+           font-size: 40px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           height: 20px;
+           width: 100%-2px;
+           text-align: center;
+           margin-top: 10px;
+           border: 1px solid white;
+           height: 10%;
+           border-radius: 16px 2px 16px 2px;
+           cursor: pointer;
+        }
+        aside h3:hover{
+            background-color: rgb(6, 209, 6);
+            cursor: pointer;
+        }
+        main{
+            float: right;
+            width:79.8% ;
+            height: 600px;
+            background-image: linear-gradient(to left, white,rgb(179, 166, 166));
+            display: inline-block;
+            text-align: center;
+        }
+        #media{
+            height:30px ;
+        }
+        #media li{
+            display: inline-block;
+            font-size: 40px;
+            color: rgba(237, 243, 243, 0.945);
+            float: left;
+            background-color: black;
+            border: 1px solid whitesmoke;
+            width: 13.132%;
+            text-align: center;
+            transform: translate();
+            clip-path: polygon(8% 0, 100% 0, 92% 99%, 0 100%);
+            border-radius: 4% 2% 4% 2%;
+        }
+        #media li:hover{
+            cursor: pointer;
+            background-color: rgb(5, 95, 65);
+            color: red;
+        
+        }
+        h1{
+            font-size: 60px;
+            width: 79.8%;
+            background-color: yellow;
+            color: red;
+            text-align: center;
+            margin-left: 0%;
+            float: right;
+            margin-top: 6px;
+            border-radius: 8px;
+            animation: changebackground 2s 6 alternate;
+        }
+        @keyframes changebackground{
+            0%{
+                background-color: white;
+                color:black;
+            }
+            50%{
+                background-color: skyblue;
+                color: violet;
+            }
+            100%{
+                background-color:yellowgreen ;
+                color: darkblue;
+            }
+        }
+        hr{
+            color: black;
+            margin-top: 10px;
+            width: 100%;
+        }
+        #rogo{
+            width: 100%;
+            height: 260px;
+            background-color: azure;
+            position: relative;
+        }
+        #box{
+            position:absolute;
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgb(136, 202, 4);
+        }
+        #car{
+            height:260px ;
+            width: 40%;
+            float: left;
+        }
+        legend{
+            color: white;
+            font-size: 60px;
+        }
+        p{
+            color: white;
+            font-size: 24px;
+        }
+        .icon{
+            width:40px;
+            height: 40px;
+            margin:5px 20px 5px 20px;
+        }
+        footer{
+            height: 80px;
+            width: 80%;
+            background-color: black;
+            position: bottom;
+            float: right;
+            margin-top: 0%;
+        }
+        footer nav{
+            text-align: center;
+            height: 100%;
+            padding-top: 20px;
+        
+        }
+            .icon:hover{
+                width: 50px;
+                height: 50px;
+                border-bottom: 2px double skyblue;
+            }
+@media (max-width:1329px) and (min-width:400px) {
+    body{
+        width: 100%;
+    }
+    header span{
+        width: 19.5%;
+        height: 50%;
+        text-align: center;
+        border: 0.5px dotted wheat;
+        display: inline-block;
+    }
+    header img{
+        width: 98%;
+        margin: 1px;
+        height: 50px;
+    }
+    #seat{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    header h2{
+        display: block;
+    }
+    span h2{
+        display: block;
+        margin: 0%;
+        font-size: 14px;
+    }
+    aside{
+        width: 100%;
+        height: 480px;
+    }
+    aside h3{
+        width: 100%-2px;
+        display: block;
+        margin: 4px;
+        
+    }
+    #media{
+        width: 100%;
+        height: 400px;
+        display: block;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #media li{
+        display: inline-block;
+        width: 33%;
+    }
+    h1{
+        display: block;
+        
+        width: 99%;
+        margin-left: 3px;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    #car{
+        height:200px;
+
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media(max-width: 399px){
+    header span{
+        width: 19.2%;
+        height: 50%;
+        text-align: center;
+        border: 0.5px dotted wheat;
+        display: inline-block;
+    }
+    header img{
+        width: 94%;
+        margin: 1px;
+        height: 40px;
+    }
+    span h2{
+        display: block;
+        margin: 0%;
+        font-size: 12px;
+    }
+    aside{
+        width: 100% ;
+        height: 280px;
+        display:block
+        
+
+    }
+    aside h3{
+        width:90%;
+        text-align: center;
+        height: 30px;
+        margin: 0px;
+        font-size: 20px;
+    }
+    #media{
+        width: 100%;
+        height: 300px;
+        display: block;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #media li{
+        height: 30px;
+        display: block;
+        width: 99%;
+        font-size: 22px;
+    }
+
+}
+
+  
